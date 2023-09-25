@@ -1,3 +1,4 @@
+
 const Banner = () => {
   return (
     <div className="flex flex-col items-center justify-center my-7 md:my-10 lg:my-16 space-y-4 md:space-y-5 lg:space-y-8">

@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import Banner from "../Banner/Banner";
 
 const Header = () => {
     const activeStyle = ({ isActive }) => ({
@@ -36,7 +35,6 @@ const Header = () => {
             </ul>
             </div>
         </div>
-        <Banner></Banner>
       </div>
     </>
   );

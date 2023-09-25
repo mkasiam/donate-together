@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "img": "health_img1.jpg",
     "title": "Healthy Living Guide",
     "category_name": "Health",
@@ -9,6 +10,7 @@
     "description_color": "#333"
   },
   {
+    "id": 2,
     "img": "education_img1.jpg",
     "title": "Learn and Grow",
     "category_name": "Education",
@@ -18,6 +20,7 @@
     "description_color": "#333"
   },
   {
+    "id": 3,
     "img": "clothing_img1.jpg",
     "title": "Fashion Trends 2023",
     "category_name": "Clothing",
@@ -27,6 +30,7 @@
     "description_color": "#333"
   },
   {
+    "id": 4,
     "img": "food_img1.jpg",
     "title": "Delicious Recipes",
     "category_name": "Food",
@@ -36,6 +40,7 @@
     "description_color": "#333"
   },
   {
+    "id": 5,
     "img": "health_img2.jpg",
     "title": "Fitness Challenge",
     "category_name": "Health",
@@ -45,6 +50,7 @@
     "description_color": "#333"
   },
   {
+    "id": 6,
     "img": "education_img2.jpg",
     "title": "Online Courses",
     "category_name": "Education",
@@ -54,6 +60,7 @@
     "description_color": "#333"
   },
   {
+    "id": 7,
     "img": "clothing_img2.jpg",
     "title": "Fashion Accessories",
     "category_name": "Clothing",
@@ -63,6 +70,7 @@
     "description_color": "#333"
   },
   {
+    "id": 8,
     "img": "food_img2.jpg",
     "title": "Gourmet Cooking",
     "category_name": "Food",
@@ -72,6 +80,7 @@
     "description_color": "#333"
   },
   {
+    "id": 9,
     "img": "health_img3.jpg",
     "title": "Mental Wellness",
     "category_name": "Health",
@@ -81,6 +90,7 @@
     "description_color": "#333"
   },
   {
+    "id": 10,
     "img": "education_img3.jpg",
     "title": "Language Learning",
     "category_name": "Education",
@@ -90,6 +100,7 @@
     "description_color": "#333"
   },
   {
+    "id": 11,
     "img": "clothing_img3.jpg",
     "title": "Casual Outfits",
     "category_name": "Clothing",
@@ -99,6 +110,7 @@
     "description_color": "#333"
   },
   {
+    "id": 12,
     "img": "food_img3.jpg",
     "title": "Vegetarian Delights",
     "category_name": "Food",
