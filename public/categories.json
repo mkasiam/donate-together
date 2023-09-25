@@ -1,0 +1,110 @@
+[
+  {
+    "img": "health_img1.jpg",
+    "title": "Healthy Living Guide",
+    "category_name": "Health",
+    "description": "Explore tips for a healthier lifestyle.",
+    "primary_color": "#4CAF50",
+    "category_bg_color": "#C8E6C9",
+    "description_color": "#333"
+  },
+  {
+    "img": "education_img1.jpg",
+    "title": "Learn and Grow",
+    "category_name": "Education",
+    "description": "Discover new knowledge and skills.",
+    "primary_color": "#2196F3",
+    "category_bg_color": "#BBDEFB",
+    "description_color": "#333"
+  },
+  {
+    "img": "clothing_img1.jpg",
+    "title": "Fashion Trends 2023",
+    "category_name": "Clothing",
+    "description": "Stay stylish with the latest fashion trends.",
+    "primary_color": "#FF5722",
+    "category_bg_color": "#FFCCBC",
+    "description_color": "#333"
+  },
+  {
+    "img": "food_img1.jpg",
+    "title": "Delicious Recipes",
+    "category_name": "Food",
+    "description": "Cook up mouthwatering dishes at home.",
+    "primary_color": "#FF9800",
+    "category_bg_color": "#FFE0B2",
+    "description_color": "#333"
+  },
+  {
+    "img": "health_img2.jpg",
+    "title": "Fitness Challenge",
+    "category_name": "Health",
+    "description": "Get fit and stay active with our challenges.",
+    "primary_color": "#4CAF50",
+    "category_bg_color": "#C8E6C9",
+    "description_color": "#333"
+  },
+  {
+    "img": "education_img2.jpg",
+    "title": "Online Courses",
+    "category_name": "Education",
+    "description": "Enroll in courses to advance your career.",
+    "primary_color": "#2196F3",
+    "category_bg_color": "#BBDEFB",
+    "description_color": "#333"
+  },
+  {
+    "img": "clothing_img2.jpg",
+    "title": "Fashion Accessories",
+    "category_name": "Clothing",
+    "description": "Complete your look with trendy accessories.",
+    "primary_color": "#FF5722",
+    "category_bg_color": "#FFCCBC",
+    "description_color": "#333"
+  },
+  {
+    "img": "food_img2.jpg",
+    "title": "Gourmet Cooking",
+    "category_name": "Food",
+    "description": "Master the art of gourmet cooking.",
+    "primary_color": "#FF9800",
+    "category_bg_color": "#FFE0B2",
+    "description_color": "#333"
+  },
+  {
+    "img": "health_img3.jpg",
+    "title": "Mental Wellness",
+    "category_name": "Health",
+    "description": "Prioritize your mental health and well-being.",
+    "primary_color": "#4CAF50",
+    "category_bg_color": "#C8E6C9",
+    "description_color": "#333"
+  },
+  {
+    "img": "education_img3.jpg",
+    "title": "Language Learning",
+    "category_name": "Education",
+    "description": "Learn a new language with our courses.",
+    "primary_color": "#2196F3",
+    "category_bg_color": "#BBDEFB",
+    "description_color": "#333"
+  },
+  {
+    "img": "clothing_img3.jpg",
+    "title": "Casual Outfits",
+    "category_name": "Clothing",
+    "description": "Discover comfortable and stylish casual wear.",
+    "primary_color": "#FF5722",
+    "category_bg_color": "#FFCCBC",
+    "description_color": "#333"
+  },
+  {
+    "img": "food_img3.jpg",
+    "title": "Vegetarian Delights",
+    "category_name": "Food",
+    "description": "Explore the world of delicious vegetarian cuisine.",
+    "primary_color": "#FF9800",
+    "category_bg_color": "#FFE0B2",
+    "description_color": "#333"
+  }
+]
