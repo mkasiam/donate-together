@@ -1,7 +1,9 @@
+import Header from "../Header/Header";
+
 const Root = () => {
     return (
         <div>
-            <h1>Hello World</h1>
+            <Header></Header>
         </div>
     );
 };
