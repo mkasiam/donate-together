@@ -4,15 +4,15 @@ const Banner = () => {
       <h1 className="text-[#0B0B0B] text-2xl md:text-3xl lg:text-4xl font-bold text-center">
         I Grow By Helping People In Need
       </h1>
-      <div>
-          <div className="input-group rounded-none">
-            <input
-              type="text"
-              placeholder="Search…"
-              className="input input-bordered rounded-sm "
-            />
-            <button className="btn px-2 rounded-sm">Search</button>
-          </div>
+      <div className="rounded-none">
+        <div className="input-group">
+          <input
+            type="text"
+            placeholder="Search…"
+            className="input input-bordered "
+          />
+          <button className="btn px-2 rounded-sm">Search</button>
+        </div>
       </div>
     </div>
   );
