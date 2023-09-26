@@ -1,6 +1,6 @@
 const Banner = () => {
   const headerStyle = {
-    backgroundImage: 'url("banner.jpg")',
+    backgroundImage: 'url("https://i.ibb.co/tPz3tK9/Rectangle-4281.png")',
     backgroundSize: 'cover', 
     backgroundPosition: 'center', 
     height: '300px', 

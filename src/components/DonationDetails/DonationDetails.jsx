@@ -15,8 +15,7 @@ const DonationDetails = () => {
     toast('Donation Successfully Done');
   }
   return (
-    <div>
-      <h1>I am donation details{id}</h1>
+    <div className="mt-3">
       {/* Hero item from daisy ui  */}
       <div>
         <div className="w-full">
