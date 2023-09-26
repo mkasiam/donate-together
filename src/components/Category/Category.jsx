@@ -6,13 +6,13 @@ const Category = ({category}) => {
     return (
         <div>
             <Link to={`/donation/${id}`}>
-                <div className={`rounded-md`}>
+                <div style={{backgroundColor:`${card_color}`}} className={`rounded-md`}>
                     <div className=" rounded-md">
-                        <img className="w-full rounded-md" src={img} alt="No image found" />
+                        <img className="w-full" src={img} alt="No image found" />
                     </div>
-                    <div className="py-4 space-y-2">
-                        <p className={`p-2 bg-slate-300 max-w-fit rounded-md`}>{category_name}</p>
-                        <h1 className="text-xl">{title}</h1>
+                    <div style={{color:`${card_common_color}`}} className="py-4 space-y-2 p-4">
+                        <p style={{backgroundColor:`${card_color}`}}  className="p-2  max-w-fit rounded-md font-medium">{category_name}</p>
+                        <h1 className="text-xl font-semibold">{title}</h1>
                     </div>
                 </div>
             </Link>
