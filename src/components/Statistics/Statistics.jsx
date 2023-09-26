@@ -1,81 +1,72 @@
-import { Pie,PieChart } from "recharts";
+import { useLoaderData } from "react-router-dom";
+import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
+import { getDonationData } from "../../../utilities/localStorage";
+
+function getDonationInfoById(id, categories) {
+  return categories.find((category) => category.id === id);
+}
+
 const Statistics = () => {
-  const data01 = [
-    {
-      name: "Group A",
-      value: 400,
-    },
-    {
-      name: "Group B",
-      value: 300,
-    },
-    {
-      name: "Group C",
-      value: 300,
-    },
-    {
-      name: "Group D",
-      value: 200,
-    },
-    {
-      name: "Group E",
-      value: 278,
-    },
-    {
-      name: "Group F",
-      value: 189,
-    },
+  const categories = useLoaderData();
+  const alreadyDonatedIds = getDonationData();
+  const DonatedFields = alreadyDonatedIds.map((id) =>
+    getDonationInfoById(id, categories)
+  );
+  console.log(DonatedFields);
+
+  const totalDonationAmount = categories.reduce((accumulator, category) => {
+    return accumulator + category.donation_amount;
+  }, 0);
+
+  const alreadyDonatedAmount = DonatedFields.reduce((accumulator, category) => {
+    return accumulator + category.donation_amount;
+  }, 0);
+  const donationPercentage = (alreadyDonatedAmount / totalDonationAmount) * 100;
+  const donationPercentageInTwoDigit = +donationPercentage.toFixed(2);
+  const remainingDonation = +(100 - donationPercentage).toFixed(2);
+
+  const data = [
+    { name: "Category A", value: donationPercentageInTwoDigit },
+    { name: "Category B", value: remainingDonation },
   ];
-  const data02 = [
-    {
-      name: "Group A",
-      value: 2400,
-    },
-    {
-      name: "Group B",
-      value: 4567,
-    },
-    {
-      name: "Group C",
-      value: 1398,
-    },
-    {
-      name: "Group D",
-      value: 9800,
-    },
-    {
-      name: "Group E",
-      value: 3908,
-    },
-    {
-      name: "Group F",
-      value: 4800,
-    },
-  ];
+
+  const COLORS = ["#FF444A", "#00C49F"];
+
+  const CustomTooltip = ({ active, payload }) => {
+    if (active && payload && payload[0]) {
+      return (
+        <div className="custom-tooltip">
+          <p className="label">{`${payload[0].name} : ${payload[0].value}`}</p>
+        </div>
+      );
+    }
+    return null;
+  };
+
   return (
-    <div>
-      <PieChart width={730} height={250}>
-        <Pie
-          data={data01}
-          dataKey="value"
-          nameKey="name"
-          cx="50%"
-          cy="50%"
-          outerRadius={50}
-          fill="#8884d8"
-        />
-        <Pie
-          data={data02}
-          dataKey="value"
-          nameKey="name"
-          cx="50%"
-          cy="50%"
-          innerRadius={60}
-          outerRadius={80}
-          fill="#82ca9d"
-          label
-        />
-      </PieChart>
+    <div className="text-center flex flex-col justify-center items-center">
+      <h2 className="text-xl font-bold">Donation Pie Chart</h2>
+      <ResponsiveContainer width="100%" height={300}>
+        <PieChart>
+          <Pie
+            data={data}
+            dataKey="value"
+            cx="50%"
+            cy="50%"
+            outerRadius={80}
+            fill="#8884d8"
+            label
+          >
+            {data.map((entry, index) => (
+              <Cell
+                key={`cell-${index}`}
+                fill={COLORS[index % COLORS.length]}
+              />
+            ))}
+          </Pie>
+          <Tooltip content={<CustomTooltip />} />
+        </PieChart>
+      </ResponsiveContainer>
     </div>
   );
 };

@@ -8,7 +8,6 @@ const DonationDetails = () => {
   const { id } = useParams();
   const idInt = parseInt(id);
   const donation = Donations.find(donation => donation.id === idInt);
-  console.log(donation);
   const {img,title,description} = donation;
   const handleDonationData = () =>{
     saveDonationData(idInt);
