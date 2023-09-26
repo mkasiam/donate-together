@@ -25,7 +25,7 @@ const Donation = () => {
   console.log(donated);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7 mt-5 rounded-sm">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7 mt-5 rounded-sm mb-7">
       {donated.map((singleDonation) => (
         <SingleDonation
           singleDonation={singleDonation}

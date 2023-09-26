@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Categories from "./components/Categories/Categories";
 import Donation from "./components/Donation/Donation";
+import DonationDetails from "./components/DonationDetails/DonationDetails";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Home from "./components/Home/Home";
 import Root from "./components/Root/Root";
 import Statistics from "./components/Statistics/Statistics";
 import "./index.css";
-import DonationDetails from "./components/DonationDetails/DonationDetails";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
       {
         path: "/donation",
         element: <Donation></Donation>,
-        loader: () => fetch("categories.json"),
+        loader: () => fetch("categories.json")
       },
       {
         path: "/statistics",
