@@ -54,7 +54,6 @@ const Statistics = () => {
   ];
   return (
     <div>
-      <h2>Pie Chart Example</h2>
       <PieChart width={730} height={250}>
         <Pie
           data={data01}

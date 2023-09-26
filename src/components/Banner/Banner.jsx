@@ -18,7 +18,7 @@ const Banner = () => {
           <input
             type="text"
             placeholder="Search…"
-            className="input input-bordered "
+            className="input input-bordered"
           />
           <button className="btn px-2 rounded-sm">Search</button>
         </div>
