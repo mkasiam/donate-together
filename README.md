@@ -1,8 +1,22 @@
-# React + Vite
+# Donation Campaign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+`Donation Campaign` is a app where people can donate money in different types of projects like in health,food, education and clothing. They are four different types where they can donate money to help those less previllage people
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User can see multiple Program of charity
+- It has three pages named Home, Donation and Statistics
+- In Home page he/she can see four kinds of field like (food, health, education, clothing )
+- App display information about the charity field
+- By Clicking Any charity work he/she will redirected to donation page where he/she can donate money.
+- User Can donate in multiple field. After every donation it will show a toast that user doation is successfull.
+- By the end of the donation he can see all the donation Clicking in Donation .
+- Also user can see the Statistics how much he/she donate in charity.
+
+## Acknowledgements
+
+- [React](https://react.dev/)
+- [vite](https://vitejs.dev/)
+- [Google Fonts](https://fonts.google.com/)
+- [Tailwind Css](https://tailwindcss.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
