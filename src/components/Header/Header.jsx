@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
     const activeStyle = ({ isActive }) => ({
@@ -10,11 +10,13 @@ const Header = () => {
       <div>
         <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center">
             <div>
-            <img
-                className="w-2xl"
-                src="https://i.ibb.co/jZHBKsy/Logo.png"
-                alt=""
-            />
+              <Link to="/">
+                <img
+                    className="w-2xl"
+                    src="https://i.ibb.co/jZHBKsy/Logo.png"
+                    alt=""
+                />
+              </Link>
             </div>
             <div>
             <ul className="flex text-xl font-medium">
