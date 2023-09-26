@@ -1,122 +1,146 @@
 [
   {
     "id": 1,
-    "img": "health_img1.jpg",
+    "img": "https://i.ibb.co/DQfGkPW/Rectangle-4284.png",
     "title": "Healthy Living Guide",
     "category_name": "Health",
     "description": "Explore tips for a healthier lifestyle.",
-    "primary_color": "#4CAF50",
-    "category_bg_color": "#C8E6C9",
-    "description_color": "#333"
+    "donation_amount": 50,
+    "card_color": "#0052ff26",
+    "card_common_color": "#0052FF",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 2,
-    "img": "education_img1.jpg",
+    "img": "https://i.ibb.co/qj1Mrkk/Education.png",
     "title": "Learn and Grow",
     "category_name": "Education",
     "description": "Discover new knowledge and skills.",
-    "primary_color": "#2196F3",
-    "category_bg_color": "#BBDEFB",
-    "description_color": "#333"
+    "donation_amount": 40,
+    "card_color": "#ff444a26",
+    "card_common_color": "#FF444A",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 3,
-    "img": "clothing_img1.jpg",
+    "img": "https://i.ibb.co/1sdCyS4/Clothing.png",
     "title": "Fashion Trends 2023",
     "category_name": "Clothing",
     "description": "Stay stylish with the latest fashion trends.",
-    "primary_color": "#FF5722",
-    "category_bg_color": "#FFCCBC",
-    "description_color": "#333"
+    "donation_amount": 60,
+    "card_color": "#79c23f26",
+    "card_common_color": "#79C23F",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 4,
-    "img": "food_img1.jpg",
+    "img": "https://i.ibb.co/zsWBbqN/Food.png",
     "title": "Delicious Recipes",
     "category_name": "Food",
     "description": "Cook up mouthwatering dishes at home.",
-    "primary_color": "#FF9800",
-    "category_bg_color": "#FFE0B2",
-    "description_color": "#333"
+    "donation_amount": 45,
+    "card_color": "#79c23f26",
+    "card_common_color": "#F87147",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 5,
-    "img": "health_img2.jpg",
+    "img": "https://i.ibb.co/DQfGkPW/Rectangle-4284.png",
     "title": "Fitness Challenge",
     "category_name": "Health",
     "description": "Get fit and stay active with our challenges.",
-    "primary_color": "#4CAF50",
-    "category_bg_color": "#C8E6C9",
-    "description_color": "#333"
+    "donation_amount": 55,
+    "card_color": "#0052ff26",
+    "card_common_color": "#0052FF",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 6,
-    "img": "education_img2.jpg",
+    "img": "https://i.ibb.co/qj1Mrkk/Education.png",
     "title": "Online Courses",
     "category_name": "Education",
     "description": "Enroll in courses to advance your career.",
-    "primary_color": "#2196F3",
-    "category_bg_color": "#BBDEFB",
-    "description_color": "#333"
+    "donation_amount": 42,
+    "card_color": "#ff444a26",
+    "card_common_color": "#FF444A",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 7,
-    "img": "clothing_img2.jpg",
+    "img": "https://i.ibb.co/1sdCyS4/Clothing.png",
     "title": "Fashion Accessories",
     "category_name": "Clothing",
     "description": "Complete your look with trendy accessories.",
-    "primary_color": "#FF5722",
-    "category_bg_color": "#FFCCBC",
-    "description_color": "#333"
+    "donation_amount": 62,
+    "card_color": "#79c23f26",
+    "card_common_color": "#79C23F",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 8,
-    "img": "food_img2.jpg",
+    "img": "https://i.ibb.co/zsWBbqN/Food.png",
     "title": "Gourmet Cooking",
     "category_name": "Food",
     "description": "Master the art of gourmet cooking.",
-    "primary_color": "#FF9800",
-    "category_bg_color": "#FFE0B2",
-    "description_color": "#333"
+    "donation_amount": 48,
+    "card_color": "#79c23f26",
+    "card_common_color": "#F87147",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 9,
-    "img": "health_img3.jpg",
+    "img": "https://i.ibb.co/DQfGkPW/Rectangle-4284.png",
     "title": "Mental Wellness",
     "category_name": "Health",
     "description": "Prioritize your mental health and well-being.",
-    "primary_color": "#4CAF50",
-    "category_bg_color": "#C8E6C9",
-    "description_color": "#333"
+    "donation_amount": 58,
+    "card_color": "#0052ff26",
+    "card_common_color": "#0052FF",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 10,
-    "img": "education_img3.jpg",
+    "img": "https://i.ibb.co/qj1Mrkk/Education.png",
     "title": "Language Learning",
     "category_name": "Education",
     "description": "Learn a new language with our courses.",
-    "primary_color": "#2196F3",
-    "category_bg_color": "#BBDEFB",
-    "description_color": "#333"
+    "donation_amount": 46,
+    "card_color": "#ff444a26",
+    "card_common_color": "#FF444A",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 11,
-    "img": "clothing_img3.jpg",
+    "img": "https://i.ibb.co/1sdCyS4/Clothing.png",
     "title": "Casual Outfits",
     "category_name": "Clothing",
     "description": "Discover comfortable and stylish casual wear.",
-    "primary_color": "#FF5722",
-    "category_bg_color": "#FFCCBC",
-    "description_color": "#333"
+    "donation_amount": 65,
+    "card_color": "#79c23f26",
+    "card_common_color": "#79C23F",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   },
   {
     "id": 12,
-    "img": "food_img3.jpg",
+    "img": "https://i.ibb.co/zsWBbqN/Food.png",
     "title": "Vegetarian Delights",
     "category_name": "Food",
     "description": "Explore the world of delicious vegetarian cuisine.",
-    "primary_color": "#FF9800",
-    "category_bg_color": "#FFE0B2",
-    "description_color": "#333"
+    "donation_amount": 50,
+    "card_color": "#79c23f26",
+    "card_common_color": "#F87147",
+    "description_color": "#0b0b0bb3",
+    "card_title_color": "#0B0B0B"
   }
 ]
