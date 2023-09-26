@@ -1,7 +1,8 @@
 [
   {
     "id": 1,
-    "img": "https://i.ibb.co/DQfGkPW/Rectangle-4284.png",
+    "img": "https://i.ibb.co/qJYHVp9/Health.png",
+    "small_banner_img": "https://i.ibb.co/DQfGkPW/Rectangle-4284.png",
     "title": "Healthy Living Guide",
     "category_name": "Health",
     "description": "Explore tips for a healthier lifestyle.",
@@ -14,6 +15,7 @@
   {
     "id": 2,
     "img": "https://i.ibb.co/qj1Mrkk/Education.png",
+    "small_banner_img": "https://i.ibb.co/0XhmYtN/Rectangle-4287-1.png",
     "title": "Learn and Grow",
     "category_name": "Education",
     "description": "Discover new knowledge and skills.",
@@ -26,6 +28,7 @@
   {
     "id": 3,
     "img": "https://i.ibb.co/1sdCyS4/Clothing.png",
+    "small_banner_img": "https://i.ibb.co/Gd6v7f9/Rectangle-4287.png",
     "title": "Fashion Trends 2023",
     "category_name": "Clothing",
     "description": "Stay stylish with the latest fashion trends.",
@@ -38,6 +41,7 @@
   {
     "id": 4,
     "img": "https://i.ibb.co/zsWBbqN/Food.png",
+    "small_banner_img": "https://i.ibb.co/DW4W75B/Rectangle-4287-2.png",
     "title": "Delicious Recipes",
     "category_name": "Food",
     "description": "Cook up mouthwatering dishes at home.",
@@ -49,7 +53,8 @@
   },
   {
     "id": 5,
-    "img": "https://i.ibb.co/DQfGkPW/Rectangle-4284.png",
+    "img": "https://i.ibb.co/qJYHVp9/Health.png",
+    "small_banner_img": "https://i.ibb.co/DQfGkPW/Rectangle-4284.png",
     "title": "Fitness Challenge",
     "category_name": "Health",
     "description": "Get fit and stay active with our challenges.",
@@ -62,6 +67,7 @@
   {
     "id": 6,
     "img": "https://i.ibb.co/qj1Mrkk/Education.png",
+    "small_banner_img": "https://i.ibb.co/0XhmYtN/Rectangle-4287-1.png",
     "title": "Online Courses",
     "category_name": "Education",
     "description": "Enroll in courses to advance your career.",
@@ -74,6 +80,7 @@
   {
     "id": 7,
     "img": "https://i.ibb.co/1sdCyS4/Clothing.png",
+    "small_banner_img": "https://i.ibb.co/Gd6v7f9/Rectangle-4287.png",
     "title": "Fashion Accessories",
     "category_name": "Clothing",
     "description": "Complete your look with trendy accessories.",
@@ -86,6 +93,7 @@
   {
     "id": 8,
     "img": "https://i.ibb.co/zsWBbqN/Food.png",
+    "small_banner_img": "https://i.ibb.co/DW4W75B/Rectangle-4287-2.png",
     "title": "Gourmet Cooking",
     "category_name": "Food",
     "description": "Master the art of gourmet cooking.",
@@ -97,7 +105,8 @@
   },
   {
     "id": 9,
-    "img": "https://i.ibb.co/DQfGkPW/Rectangle-4284.png",
+    "img": "https://i.ibb.co/qJYHVp9/Health.png",
+    "small_banner_img": "https://i.ibb.co/DQfGkPW/Rectangle-4284.png",
     "title": "Mental Wellness",
     "category_name": "Health",
     "description": "Prioritize your mental health and well-being.",
@@ -110,6 +119,7 @@
   {
     "id": 10,
     "img": "https://i.ibb.co/qj1Mrkk/Education.png",
+    "small_banner_img": "https://i.ibb.co/0XhmYtN/Rectangle-4287-1.png",
     "title": "Language Learning",
     "category_name": "Education",
     "description": "Learn a new language with our courses.",
@@ -122,6 +132,7 @@
   {
     "id": 11,
     "img": "https://i.ibb.co/1sdCyS4/Clothing.png",
+    "small_banner_img": "https://i.ibb.co/Gd6v7f9/Rectangle-4287.png",
     "title": "Casual Outfits",
     "category_name": "Clothing",
     "description": "Discover comfortable and stylish casual wear.",
@@ -134,6 +145,7 @@
   {
     "id": 12,
     "img": "https://i.ibb.co/zsWBbqN/Food.png",
+    "small_banner_img": "https://i.ibb.co/DW4W75B/Rectangle-4287-2.png",
     "title": "Vegetarian Delights",
     "category_name": "Food",
     "description": "Explore the world of delicious vegetarian cuisine.",
