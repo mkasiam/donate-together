@@ -2,9 +2,10 @@ import { Link } from "react-router-dom";
 
 const Category = ({category}) => {
     const {id,img,category_name,title}=category;
+    
     return (
         <div>
-            <Link to={`/${id}`}>
+            <Link to={`/donation/${id}`}>
                 <div>
                     <div className="border border-black rounded-md">
                         <img className="w-full rounded-md" src={img} alt="No image found" />

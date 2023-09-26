@@ -1,9 +1,16 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveDonationData } from "../../../utilities/localStorage";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const DonationDetails = () => {
   const Donations = useLoaderData();
   console.log(Donations);
   const { id } = useParams();
+  const handleDonationData = () =>{
+    saveDonationData(id);
+    toast('Donation Successfully Done');
+  }
   return (
     <div>
       <h1>I am donation details{id}</h1>
@@ -15,7 +22,7 @@ const DonationDetails = () => {
             style={{ backgroundImage: 'url("https://i.ibb.co/Wkg2Mph/Rectangle-4288.png")' }}
           >
             <div className="absolute bottom-0 left-0 right-0 bg-opacity-75 bg-black text-white py-4">
-              <button className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full">
+              <button onClick={handleDonationData} className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full">
                 Donate $50
               </button>
             </div>
@@ -37,6 +44,7 @@ const DonationDetails = () => {
           </p>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
