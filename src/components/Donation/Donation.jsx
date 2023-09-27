@@ -38,7 +38,7 @@ const Donation = () => {
         ))}
       </div>
       <div className="flex justify-center mb-4">
-        <div className={dataLength === donated.length && "hidden"}>
+        <div className={dataLength === donated.length ||donated.length < 4 && "hidden"}>
            <button onClick={handleShowAll} className="btn btn-primary rounded-sm text-center">Show All</button>
         </div>
       </div>
