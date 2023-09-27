@@ -1,5 +1,5 @@
+import { Chart } from "react-google-charts";
 import { useLoaderData } from "react-router-dom";
-import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 import { getDonationData } from "../../../utilities/localStorage";
 
 function getDonationInfoById(id, categories) {
@@ -26,48 +26,25 @@ const Statistics = () => {
   const remainingDonation = +(100 - donationPercentage).toFixed(2);
 
   const data = [
-    { name: "Category A", value: donationPercentageInTwoDigit },
-    { name: "Category B", value: remainingDonation },
+    ["Donation", "Donation Amount"],
+    ["Total Donation", donationPercentageInTwoDigit],
+    ["Your Donation", remainingDonation],
+    
   ];
 
-  const COLORS = ["#FF444A", "#00C49F"];
-
-  const CustomTooltip = ({ active, payload }) => {
-    if (active && payload && payload[0]) {
-      return (
-        <div className="custom-tooltip">
-          <p className="label">{`${payload[0].name} : ${payload[0].value}`}</p>
-        </div>
-      );
-    }
-    return null;
+  const options = {
+    title: "Donation Details",
   };
 
   return (
-    <div className="text-center flex flex-col justify-center items-center">
-      <h2 className="text-xl font-bold">Donation Pie Chart</h2>
-      <ResponsiveContainer width="100%" height={300}>
-        <PieChart>
-          <Pie
-            data={data}
-            dataKey="value"
-            cx="50%"
-            cy="50%"
-            outerRadius={80}
-            fill="#8884d8"
-            label
-          >
-            {data.map((entry, index) => (
-              <Cell
-                key={`cell-${index}`}
-                fill={COLORS[index % COLORS.length]}
-              />
-            ))}
-          </Pie>
-          <Tooltip content={<CustomTooltip />} />
-        </PieChart>
-      </ResponsiveContainer>
-    </div>
+    <Chart
+      className="my-4"
+      chartType="PieChart"
+      data={data}
+      options={options}
+      width={"100%"}
+      height={"400px"}
+    />
   );
 };
 
