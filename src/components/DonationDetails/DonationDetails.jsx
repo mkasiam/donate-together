@@ -22,7 +22,7 @@ const DonationDetails = () => {
             className="bg-cover bg-center h-screen relative"
             style={{ backgroundImage: `url(${img})` }}
           >
-            <div className="z-0 absolute bottom-0 left-0 right-0 bg-opacity-40   bg-black text-white py-4">
+            <div className="z-0 absolute bottom-0 left-0 right-0 bg-opacity-40   bg-black text-white py-4 ">
               <button onClick={handleDonationData} style={{backgroundColor:`${card_common_color}`}} className="z-10 text-white font-semibold py-2 px-4 rounded-sm ml-3">
                 Donate $50
               </button>
