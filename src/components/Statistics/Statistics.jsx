@@ -26,8 +26,8 @@ const Statistics = () => {
 
   const data = [
     ["Donation", "Donation Amount"],
-    ["Total Donation", donationPercentageInTwoDigit],
-    ["Your Donation", remainingDonation],
+    ["Total Donation", remainingDonation],
+    ["Your Donation",donationPercentageInTwoDigit ],
     
   ];
 
