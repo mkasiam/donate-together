@@ -21,7 +21,7 @@ const Banner = ({handleSearch,inputValue,setInputValue}) => {
           type="text"
           placeholder="Search by category…"
           className="input rounded-sm"
-          value={inputValue}
+          // value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
         <button
