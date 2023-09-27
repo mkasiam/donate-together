@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Category from "../Category/Category";
 
-const Categories = () => {
+const Categories = ({inputValue}) => {
     const [categories,setCategories]= useState([]);
     useEffect(()=>{
         fetch("categories.json")
@@ -9,6 +9,7 @@ const Categories = () => {
         .then(data=>setCategories(data))
     },
     [])
+    console.log(inputValue);
     return (
         <div>
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-7 mb-6">

@@ -1,16 +1,13 @@
 import { useState } from "react";
 
-const Banner = () => {
+const Banner = ({handleSearch,inputValue,setInputValue}) => {
   const headerStyle = {
     backgroundImage: 'url("https://i.ibb.co/tPz3tK9/Rectangle-4281.png")',
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "300px",
   };
-  const [inputValue, setInputValue] = useState("");
-  const handleSearch = () => {
-    setInputValue(inputValue)
-  };
+  
   return (
     <div
       style={headerStyle}

@@ -12,7 +12,6 @@ const Statistics = () => {
   const DonatedFields = alreadyDonatedIds.map((id) =>
     getDonationInfoById(id, categories)
   );
-  console.log(DonatedFields);
 
   const totalDonationAmount = categories.reduce((accumulator, category) => {
     return accumulator + category.donation_amount;
