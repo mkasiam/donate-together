@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Categories from "./components/Categories/Categories";
 import Donation from "./components/Donation/Donation";
 import DonationDetails from "./components/DonationDetails/DonationDetails";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
@@ -20,18 +19,14 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: "/",
-        element: <Categories></Categories>,
+        path: "/donation",
+        element: <Donation></Donation>,
+        loader: () => fetch("../public/categories.json")
       },
       {
         path:"donation/:id",
         element:<DonationDetails></DonationDetails>,
         loader:()=>fetch("categories.json")
-      },
-      {
-        path: "/donation",
-        element: <Donation></Donation>,
-        loader: () => fetch("categories.json")
       },
       {
         path: "/statistics",

@@ -25,8 +25,7 @@ const Donation = () => {
       }
       setDonated(donated);
     }
-  }, []);
-  console.log(donated);
+  }, [donationsData]);
 
   return (
     <div>
