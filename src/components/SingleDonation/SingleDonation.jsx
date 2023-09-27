@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 
 const SingleDonation = ({singleDonation}) => {
@@ -21,5 +22,7 @@ const SingleDonation = ({singleDonation}) => {
         </div>
     );
 };
-
+SingleDonation.propTypes={
+    singleDonation:PropTypes.object.isRequired
+}
 export default SingleDonation;

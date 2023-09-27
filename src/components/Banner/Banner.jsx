@@ -1,6 +1,5 @@
-import { useState } from "react";
-
-const Banner = ({handleSearch,inputValue,setInputValue}) => {
+import PropTypes from 'prop-types';
+const Banner = ({handleSearch,setInputValue}) => {
   const headerStyle = {
     backgroundImage: 'url("https://i.ibb.co/tPz3tK9/Rectangle-4281.png")',
     backgroundSize: "cover",
@@ -21,7 +20,6 @@ const Banner = ({handleSearch,inputValue,setInputValue}) => {
           type="text"
           placeholder="Search by category…"
           className="input rounded-sm"
-          // value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
         <button
@@ -34,5 +32,10 @@ const Banner = ({handleSearch,inputValue,setInputValue}) => {
     </div>
   );
 };
+Banner.propTypes={
+  handleSearch:PropTypes.func.isRequired,
+  setInputValue:PropTypes.func.isRequired
 
+
+}
 export default Banner;

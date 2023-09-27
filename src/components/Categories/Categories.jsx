@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect, useState } from "react";
 import Category from "../Category/Category";
 
@@ -25,5 +26,8 @@ const Categories = ({filterData}) => {
         </div>
     );
 };
+Categories.propTypes={
+    filterData:PropTypes.func.isRequired
+}
 
 export default Categories;
